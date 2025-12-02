@@ -1,0 +1,78 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do cpu_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {cpu_min_1200mv_-40c_fast.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:47:46 on Dec 01,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." cpu_min_1200mv_-40c_fast.vo 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 09:47:46 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/MIPS_CPU {C:/MIPS_CPU/TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:47:46 on Dec 01,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/MIPS_CPU" C:/MIPS_CPU/TB.v 
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 09:47:46 on Dec 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_mf_ver -L altera_ver -L lpm_ver -L sgate_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L gate_work -L work -voptargs="+acc"  TB
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_mf_ver -L altera_ver -L lpm_ver -L sgate_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L gate_work -L work -voptargs=""+acc"" TB 
+# Start time: 09:47:46 on Dec 01,2025
+# Loading work.TB
+# Loading work.cpu
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_pll
+# Loading cycloneiv_ver.cycloneiv_m_cntr
+# Loading cycloneiv_ver.cycloneiv_n_cntr
+# Loading cycloneiv_ver.cycloneiv_post_divider
+# Loading cycloneiv_ver.cycloneiv_scale_cntr
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading cycloneiv_ver.cycloneiv_ram_block
+# Loading cycloneiv_ver.cycloneiv_ram_register
+# Loading cycloneiv_ver.cycloneiv_ram_pulse_generator
+# Loading altera_ver.dffeas
+# Loading instances from cpu_min_1200mv_-40c_v_fast.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: Design size of 11236 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# Loading timing data from cpu_min_1200mv_-40c_v_fast.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /TB File: C:/MIPS_CPU/TB.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: init_signal_spy [C:/MIPS_CPU/TB.v(27)] : Mirroring the value of '/TB/DUT/CLK_SYS' onto '/TB/CLK_SYS'.
+# ** Note: init_signal_spy [C:/MIPS_CPU/TB.v(28)] : Mirroring the value of '/TB/DUT/CLK_MUL' onto '/TB/CLK_MUL'.
+# ** Note: init_signal_spy [C:/MIPS_CPU/TB.v(29)] : Mirroring the value of '/TB/DUT/writeBack' onto '/TB/writeBack'.
+#  Note : cycloneiv PLL locked to incoming clock
+# Time: 411423  Instance: TB.DUT.\pll|altpll_component|auto_generated|pll1 
+# ** Note: $stop    : C:/MIPS_CPU/TB.v(38)
+#    Time: 79010 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/MIPS_CPU/TB.v line 38
+# End time: 10:05:53 on Dec 01,2025, Elapsed time: 0:18:07
+# Errors: 0, Warnings: 1

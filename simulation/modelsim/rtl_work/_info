@@ -1,0 +1,461 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/aluno/gean/MIPS_CPU/simulation/modelsim
+vACC
+Z1 !s110 1764167281
+!i10b 1
+!s100 M7^Gm;JckZ=BE>=;>SBn<0
+IFm[PDCd9mhaXl?ai<=a@U1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1751397754
+8/home/aluno/gean/MIPS_CPU/Multiplicador/ACC/ACC.v
+F/home/aluno/gean/MIPS_CPU/Multiplicador/ACC/ACC.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1764167281.000000
+!s107 /home/aluno/gean/MIPS_CPU/Multiplicador/ACC/ACC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU/Multiplicador/ACC|/home/aluno/gean/MIPS_CPU/Multiplicador/ACC/ACC.v|
+!i113 1
+Z6 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU/Multiplicador/ACC
+Z7 tCvgOpt 0
+n@a@c@c
+vAdder
+R1
+!i10b 1
+!s100 nlc:HlR;08>XDI[d=a`;:1
+I3WdQBX62CkDc6>ZaFL@UU0
+R2
+R0
+R3
+8/home/aluno/gean/MIPS_CPU/Multiplicador/Adder/Adder.v
+F/home/aluno/gean/MIPS_CPU/Multiplicador/Adder/Adder.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/Multiplicador/Adder/Adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU/Multiplicador/Adder|/home/aluno/gean/MIPS_CPU/Multiplicador/Adder/Adder.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU/Multiplicador/Adder
+R7
+n@adder
+vADDRDecoding
+R1
+!i10b 1
+!s100 I66d6CES]B?WJAPKg^EbS2
+IhkWR1CcoKn4lZ6:DH6<m<0
+R2
+R0
+w1764166184
+8/home/aluno/gean/MIPS_CPU/ADDRDecoding/ADDRDecoding.v
+F/home/aluno/gean/MIPS_CPU/ADDRDecoding/ADDRDecoding.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/ADDRDecoding/ADDRDecoding.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU/ADDRDecoding|/home/aluno/gean/MIPS_CPU/ADDRDecoding/ADDRDecoding.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU/ADDRDecoding
+R7
+n@a@d@d@r@decoding
+vADDRDecoding_Prog
+R1
+!i10b 1
+!s100 k`>jnoDUHUGa7NU8oflGV0
+IUZlGm=4hhfTiZXTzM^1@:1
+R2
+R0
+w1764166097
+8/home/aluno/gean/MIPS_CPU/ADDDecoding_Prog/ADDRDecoding_Prog.v
+F/home/aluno/gean/MIPS_CPU/ADDDecoding_Prog/ADDRDecoding_Prog.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/ADDDecoding_Prog/ADDRDecoding_Prog.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU/ADDDecoding_Prog|/home/aluno/gean/MIPS_CPU/ADDDecoding_Prog/ADDRDecoding_Prog.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU/ADDDecoding_Prog
+R7
+n@a@d@d@r@decoding_@prog
+valu
+R1
+!i10b 1
+!s100 ?A`]RL0Z[bLmkF8lg1Jc93
+IDaeU1:En1hAcj4CCOoU[h2
+R2
+R0
+Z8 w1751397753
+8/home/aluno/gean/MIPS_CPU/ALU/alu.v
+F/home/aluno/gean/MIPS_CPU/ALU/alu.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/ALU/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU/ALU|/home/aluno/gean/MIPS_CPU/ALU/alu.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU/ALU
+R7
+vCONTROL
+R1
+!i10b 1
+!s100 aniOXUzBXDN_PnTJSJC`L1
+IeCjbk5YERHGO8kU1QFJeT1
+R2
+R0
+w1751492730
+8/home/aluno/gean/MIPS_CPU/Multiplicador/CONTROL/CONTROL.v
+F/home/aluno/gean/MIPS_CPU/Multiplicador/CONTROL/CONTROL.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/Multiplicador/CONTROL/CONTROL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU/Multiplicador/CONTROL|/home/aluno/gean/MIPS_CPU/Multiplicador/CONTROL/CONTROL.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU/Multiplicador/CONTROL
+R7
+n@c@o@n@t@r@o@l
+vcontrol
+R1
+!i10b 1
+!s100 ^F_>:8SjV[OnAn=lmRKdM1
+I]eRQYBDWH<I9?e`:e1T6f0
+R2
+R0
+R8
+8/home/aluno/gean/MIPS_CPU/Control/control.v
+F/home/aluno/gean/MIPS_CPU/Control/control.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/Control/control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU/Control|/home/aluno/gean/MIPS_CPU/Control/control.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU/Control
+R7
+vCounter
+R1
+!i10b 1
+!s100 YR<^RYH_[YFKMN`zj5kW]1
+IkWVdGC@1m_<JV<mMlSId]0
+R2
+R0
+R3
+8/home/aluno/gean/MIPS_CPU/Multiplicador/Counter/Counter.v
+F/home/aluno/gean/MIPS_CPU/Multiplicador/Counter/Counter.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/Multiplicador/Counter/Counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU/Multiplicador/Counter|/home/aluno/gean/MIPS_CPU/Multiplicador/Counter/Counter.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU/Multiplicador/Counter
+R7
+n@counter
+vcpu
+R1
+!i10b 1
+!s100 _:G:A6JGm?1`A@XVIWjGP1
+I?8Z`;Uj7aCE2FWdm400V62
+R2
+R0
+w1764167045
+8/home/aluno/gean/MIPS_CPU/cpu.v
+F/home/aluno/gean/MIPS_CPU/cpu.v
+L0 58
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU|/home/aluno/gean/MIPS_CPU/cpu.v|
+!i113 1
+R6
+Z9 !s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU
+R7
+vdatamemory
+R1
+!i10b 1
+!s100 bHP8lLMG81@oneQ062ARl2
+If9NI4UbaI`Oz:JlUgnUgm0
+R2
+R0
+R8
+8/home/aluno/gean/MIPS_CPU/DataMemory/datamemory.v
+F/home/aluno/gean/MIPS_CPU/DataMemory/datamemory.v
+Z10 L0 39
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/DataMemory/datamemory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU/DataMemory|/home/aluno/gean/MIPS_CPU/DataMemory/datamemory.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU/DataMemory
+R7
+vextend
+R1
+!i10b 1
+!s100 o=BAUN?ilW4>_=m7o6TLa3
+Io?c46fBm@6A_0iN7TgK<T3
+R2
+R0
+R3
+8/home/aluno/gean/MIPS_CPU/Extend/extend.v
+F/home/aluno/gean/MIPS_CPU/Extend/extend.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/Extend/extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU/Extend|/home/aluno/gean/MIPS_CPU/Extend/extend.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU/Extend
+R7
+vInstMem
+R1
+!i10b 1
+!s100 KF9H69W<gQiFmK?zUW=YI2
+I6;o43lX3Ld=>i==ejOLmk2
+R2
+R0
+R3
+8/home/aluno/gean/MIPS_CPU/InstMem/InstMem.v
+F/home/aluno/gean/MIPS_CPU/InstMem/InstMem.v
+R10
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/InstMem/InstMem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU/InstMem|/home/aluno/gean/MIPS_CPU/InstMem/InstMem.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU/InstMem
+R7
+n@inst@mem
+vMultiplicador
+R1
+!i10b 1
+!s100 g:UAA^HGU^KWhdB<LZP]S2
+I^_nePccBX[aBebzc@[Y5`0
+R2
+R0
+R3
+8/home/aluno/gean/MIPS_CPU/Multiplicador/Multiplicador.v
+F/home/aluno/gean/MIPS_CPU/Multiplicador/Multiplicador.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/Multiplicador/Multiplicador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU/Multiplicador|/home/aluno/gean/MIPS_CPU/Multiplicador/Multiplicador.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU/Multiplicador
+R7
+n@multiplicador
+vmux
+R1
+!i10b 1
+!s100 c2B;9CS4e1@@2DTX]a`]92
+Ig4BlCBdgzlDSMY[zY`H9^3
+R2
+R0
+R3
+8/home/aluno/gean/MIPS_CPU/MUX/mux.v
+F/home/aluno/gean/MIPS_CPU/MUX/mux.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/MUX/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU/MUX|/home/aluno/gean/MIPS_CPU/MUX/mux.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU/MUX
+R7
+vpc
+R1
+!i10b 1
+!s100 XzzS=VT^XfcjQPZG@INog1
+IljNd9Hb`5WeBORQBDX?:D0
+R2
+R0
+w1764166282
+8/home/aluno/gean/MIPS_CPU/PC/pc.v
+F/home/aluno/gean/MIPS_CPU/PC/pc.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/PC/pc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU/PC|/home/aluno/gean/MIPS_CPU/PC/pc.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU/PC
+R7
+vPLL
+R1
+!i10b 1
+!s100 O1KBEh][GeW^1fjoi@cCo3
+IE;UB[gdg19m2Wa60N^;KU2
+R2
+R0
+R3
+8/home/aluno/gean/MIPS_CPU/PLL/PLL.v
+F/home/aluno/gean/MIPS_CPU/PLL/PLL.v
+R10
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/PLL/PLL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU/PLL|/home/aluno/gean/MIPS_CPU/PLL/PLL.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU/PLL
+R7
+n@p@l@l
+vPLL_altpll
+R1
+!i10b 1
+!s100 JieFkmMn4@TfE?a_RJYSV1
+ICFIm2YEojPTh_;JIEhS7b1
+R2
+R0
+w1764163460
+8/home/aluno/gean/MIPS_CPU/db/PLL_altpll.v
+F/home/aluno/gean/MIPS_CPU/db/PLL_altpll.v
+L0 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/db/PLL_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU/db|/home/aluno/gean/MIPS_CPU/db/PLL_altpll.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU/db
+R7
+n@p@l@l_altpll
+vregister
+R1
+!i10b 1
+!s100 I47OSkN3Ol1S^`=IA8@z71
+IQS5=Pj>K1C5UDUdSR^1OV3
+R2
+R0
+R3
+8/home/aluno/gean/MIPS_CPU/Register/register.v
+F/home/aluno/gean/MIPS_CPU/Register/register.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/Register/register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU/Register|/home/aluno/gean/MIPS_CPU/Register/register.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU/Register
+R7
+vregisterfile
+R1
+!i10b 1
+!s100 lloHAfPdhiZ2XBgIbLX>A2
+IhCMJGO7Qoz6?@?jm`8gZL1
+R2
+R0
+w1751397755
+8/home/aluno/gean/MIPS_CPU/RegisterFile/registerfile.v
+F/home/aluno/gean/MIPS_CPU/RegisterFile/registerfile.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/RegisterFile/registerfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU/RegisterFile|/home/aluno/gean/MIPS_CPU/RegisterFile/registerfile.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/aluno/gean/MIPS_CPU/RegisterFile
+R7
+vTB
+R1
+!i10b 1
+!s100 mS?iC7=IdP>2efa@GQijh3
+I8FmEV66EB9A5E[ac^YAMF2
+R2
+R0
+w1751505955
+8/home/aluno/gean/MIPS_CPU/TB.v
+F/home/aluno/gean/MIPS_CPU/TB.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/aluno/gean/MIPS_CPU/TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/gean/MIPS_CPU|/home/aluno/gean/MIPS_CPU/TB.v|
+!i113 1
+R6
+R9
+R7
+n@t@b
