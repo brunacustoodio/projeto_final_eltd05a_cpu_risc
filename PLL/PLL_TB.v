@@ -1,16 +1,26 @@
 `timescale 1ns/100ps
 module PLL_TB();
-	reg CLK;
-	wire CLK_SYS, CLK_MUL;
 	
-	PLL DUT(
-			  .inclk0(CLK),
-			  .c0(CLK_MUL),
-			  .c1(CLK_SYS)
-			 );
+	reg inclk0;
 	
-	initial #4000 $stop;
-	initial CLK = 1'b0;
-	always #10 CLK = ~CLK; // Clock de 50 MHz
+	wire c0;
+	wire c1;
+	
+	PLL DUT
+		(	
+			.inclk0(inclk0),
+			.c0(c0),
+			.c1(c1)
+		);
+	
+	always #14.706 inclk0 = ~inclk0;
+	
+	initial
+		begin
+			inclk0 = 0;
+			
+			#10000;
+			$stop;
+		end
 
 endmodule 

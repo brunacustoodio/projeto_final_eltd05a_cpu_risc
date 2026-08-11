@@ -1,0 +1,38 @@
+module ADDRDecoding_Prog (
+    input [31:0] ADDRESS_In,
+    
+    output wire [9:0] ADDRESS_Out,
+    output reg CS
+);
+
+    // Parâmetro para os limites de decodificação
+    localparam BASE_ADDR = 32'h0260;
+    localparam LIMIT_ADDR = 32'h065F;
+
+    // Registro auxiliar para manipular a saída
+    reg [31:0] aux;
+
+    // Saída atribuída diretamente ao valor de 10 bits
+    assign ADDRESS_Out = aux[9:0];
+
+    // Função para verificar se o endereço está dentro do intervalo permitido
+    function automatic is_within_range;
+        input [31:0] addr;
+        begin
+            is_within_range = (addr >= BASE_ADDR) && (addr <= LIMIT_ADDR);
+        end
+    endfunction
+
+    always @(*) begin
+        // Reset padrão para todos os sinais
+        aux = 0;
+        CS = 0;
+
+        // Lógica de decodificação
+        if (is_within_range(ADDRESS_In)) begin
+            aux = ADDRESS_In - BASE_ADDR; // Ajusta o endereço base
+            CS = 1; // Chip Select ativo
+        end
+    end
+
+endmodule

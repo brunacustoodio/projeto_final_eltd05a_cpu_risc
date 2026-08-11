@@ -1,2 +1,0 @@
-Info (10281): Verilog HDL Declaration information at cpu.v(70): object "ctrl1" differs only in case from object "CTRL1" in the same scope File: C:/MIPS_CPU/cpu.v Line: 70
-Info (10281): Verilog HDL Declaration information at cpu.v(71): object "ctrl3" differs only in case from object "CTRL3" in the same scope File: C:/MIPS_CPU/cpu.v Line: 71
