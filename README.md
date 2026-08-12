@@ -121,19 +121,6 @@ RISC/
 - O clock aplicado no testbench para a PLL deve ser igual ao definido como entrada da PLL no IP
   Catalog, e a frequência de simulação deve respeitar a máxima frequência de operação encontrada no
   TimeQuest.
-
-## Avaliação (responder como comentário no início de `risc.v`)
-
-1. Qual a latência do sistema?
-2. Qual o *throughput* do sistema?
-3. Qual a máxima frequência operacional (TimeQuest) para o multiplicador e para o sistema?
-   (indicar a FPGA usada)
-4. Qual a máxima frequência de operação do sistema? (indicar a FPGA usada)
-5. Há problemas de metaestabilidade entre os dois domínios de clock? Por quê?
-6. O multiplicador utilizado é eficiente em velocidade para este sistema? Por quê?
-7. Que modificações tornariam o sistema mais rápido? Qual a nova latência/throughput para cada
-   modificação sugerida?
-
 ## Notas
 
 - Esta pasta corresponde à estrutura de entrega exigida no enunciado: `risc.v`/`risc_TB.v` como
